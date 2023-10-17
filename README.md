@@ -1,6 +1,5 @@
 ![Django Logo](https://www.djangoproject.com/s/img/logos/django-logo-negative.png)
 [![Team digipodium](https://img.shields.io/badge/-digipodium-red?style=for-the-badge)](https://digipodium.com/)
-![GitHub stars](https://img.shields.io/github/stars/digipodium/django-bootstrap-htmx-template-2023?style=for-the-badge)
 # Django Website Template 2023
 ## Table of Contents
 
