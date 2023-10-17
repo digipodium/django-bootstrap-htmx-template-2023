@@ -1,0 +1,28 @@
+{% extends 'layout/base.html' %}
+{% load static %}
+{% block title %}Login{% endblock %}
+
+{% block head %}
+    <style>
+        main {
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        body {
+           background: radial-gradient(#3acf6e, #e9eaed);
+        }
+    </style>
+{% endblock head %}
+    
+{% block content %}
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Create Account</h4>
+            <p class="card-text">
+                {% include 'partials/register_form.html' %}
+            </p>
+        </div>
+    </div>
+{% endblock %}
+    

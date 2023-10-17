@@ -1,0 +1,23 @@
+<form hx-post="{% url 'htmx_register' %}" method="post">
+    {% csrf_token %}
+    <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input name="username" type="text" class="form-control" id="username" aria-describedby="usernameHelp">
+        <div id="usernameHelp" class="form-text">We'll never share your username with anyone else.</div>
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId"
+            placeholder="abc@mail.com">
+        <small id="emailHelpId" class="form-text text-muted">We'll share your email with our marketing team</small>
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input name="password" type="password" class="form-control" id="password">
+    </div>
+    <div class="mb-3">
+        <label for="cpassword" class="form-label">Confirm Password</label>
+        <input name="cpassword" type="password" class="form-control" id="cpassword">
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
