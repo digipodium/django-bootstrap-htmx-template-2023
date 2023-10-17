@@ -1,9 +1,6 @@
-# Django Website Template 2023
-
-
-[![Team digipodium](https://img.shields.io/badge/-digipodium-red?style=for-the-badge)](https://digipodium.com/)
 ![Django Logo](https://www.djangoproject.com/s/img/logos/django-logo-negative.png)
-
+[![Team digipodium](https://img.shields.io/badge/-digipodium-red?style=for-the-badge)](https://digipodium.com/)
+# Django Website Template 2023
 ## Table of Contents
 
 1. [Introduction](#introduction)
